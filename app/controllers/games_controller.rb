@@ -1,4 +1,5 @@
 require 'open-uri'
+require 'json'
 class GamesController < ApplicationController
   VOWELS = %w(A E I O U Y)
 
